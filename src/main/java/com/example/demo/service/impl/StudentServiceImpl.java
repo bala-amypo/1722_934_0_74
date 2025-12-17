@@ -24,6 +24,6 @@ public class StudentServiceImpl implements StudentService{
     }
     @Override
     public void deleteStudent(Long id){
-        strepo.deleteByid(id);
+        strepo.deleteById(id);
     }
 }
