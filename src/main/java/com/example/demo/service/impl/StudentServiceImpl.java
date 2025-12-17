@@ -19,11 +19,11 @@ public class StudentServiceImpl implements StudentService{
         return strepo.findall();
     }
     @Override
-    public Optional<Student>getOneStudent(lo){
+    public Optional<Student>getOneStudent(Long id){
         return strepo.findById(id);
     }
     @Override
     public void deleteStudent(Long id){
-        strepo
+        strepo.deleteByid(id);
     }
 }
