@@ -50,6 +50,6 @@ public class StudentController {
             studentService.deleteStudent(id);
             return "Deleted Success";
         }
-        return "Id not found";
+        return "Id Not found";
     }
 }
